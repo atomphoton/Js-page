@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.hero{
+   width: 100%;
+   position: relative;
+}
+.logo{
+    position: absolute;
+    margin-left: 10%;
+
+}
+.hero-nav{
+    position: absolute;
+    right: 10%;
+    
+}
+em a{
+    color: #fff;
+    padding: 10px;
+}
+
+.sticky-nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    margin: 2%;
+}
+.logo-img{
+    float: left;
+    margin-left: 5%;
+    padding-bottom: 30px;
+}
+
+.sticky-nav nav{
+    float: right;
+    margin-right:5% ;
+}
+.sticky-nav nav a{
+    padding : 15px;
+    color: #5E6B85;
+    font-weight: bold;
+}
+
+
+
+.carousel{
+    background-image: url(corocilbg.png);
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    
+}
+.flex-box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumbnails img{
+    padding: 10px; 
+    padding-bottom: 0; 
+    cursor: pointer;
+}
+.dot{
+    display: inline-block;
+    background-color: #fff;
+    width: 4px;
+    height:4px;
+    border-radius: 100%;
+}
+
+
+.container2{
+   
+    margin-top: 2%;
+    text-align: center;
+}
+.tabs{
+    width: 100%;
+    height: 40px;
+    background-color: #2D3950;
+    text-align: left;
+    padding-bottom: 1.5%;
+}
+.options div{
+    display: inline-block;
+    margin-right: 3%;
+    padding-bottom: 1%;
+}
+.options{
+    margin-left: 20%;
+    
+}
+.mountain1, .mountain2{
+    color:#AEB5C2 ;
+    height: 50px;
+    cursor: pointer;
+    
+}
+.p.active{
+    background-color: #AEB5C2;
+    color:#2D3950;
+    text-decoration: underline;
+    transition: all 1s ease-in;
+}
+.r, .s{
+    display: none;
+}
+.a.active{
+    display: inline-block;
+   
+}
+.foot{
+    background-color: #2D3950;
+    width: 100%;
+    height: 70px;
+    color: #858FA1;
+}
+
+footer img{
+    padding: 1%;
+    float: left;
+    margin-left: 10%;
+    display: inline;
+}
+footer p{
+    
+    float: right;
+    margin-right: 10%;
+}
+.on{
+    width: 200px;
+     transition: all .5s ease-out;
+}
+.on:hover{
+     transition: all .5s ease-in;
+    width: 400px;
+    border-radius: 2%;
+}
+.mobile-view{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+
+.hero-img{
+    width: 100%;
+    height: 400px;
+}
+.logo-img{
+    width: 30%;
+}
+.nav-bar{
+    margin-right: 0;
+    padding: 0;
+}
+.history-img{
+    width: 100%;
+    height: 400px;
+}
+
+.container2{
+    display: none;
+}
+.mobile-view{
+    display: inline-block;
+}
+button{
+  background-color: #2D3950;
+  color: #AEB5C2; 
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 2px solid;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s; 
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.active, .drop-down:hover {
+  background-color:#AEB5C2; 
+  color: #2D3950;
+
+}   
+i{
+    margin-left: 30%;
+}
+.foot-img{
+    margin-top: 2%;
+    width: 20%;
+}
+p{ 
+    font-size: 0.5rem;
+    width: 40%;
+    margin-top: 2%;
+   
+}
+.drop1,.drop2{
+width: 100%;
+height: 300px;
+}
